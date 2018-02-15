@@ -552,6 +552,69 @@ a {
 	text-align: left;
 }
 
+/*Team*/
+
+#teamheader {
+	max-width: 100%;
+	overflow: hidden;
+	background-color: #3d434e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0px 8vw 0px 8vw;
+}
+
+#teamheader h1{
+	font-size: 1.5em;
+}
+
+#teamcontainer {
+	padding: 0vw 0vw 1em 0vw;
+	background-color: #22262c;
+}
+
+.teamrow {
+	padding: 0px 8vw 0px 8vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.teamimg {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.teammember {
+
+	/*background-color: red;*/
+	/*height: 40vh;*/
+	-webkit-flex: 1;
+    flex: 1;
+    margin: 1vw 1vw 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.teammember h1{
+	font-weight: 700;
+	font-size: 1em;
+	color: #f31e33;
+	margin: 0.5em 0px 0px 0px;
+}
+
+.teammember h2 {
+	font-weight: 400;
+	font-size: 0.6em;
+	color: white;
+	margin: 0.5em 0px 0.5em 0px;
+}
+
 /*Footer styling*/
 
 #footer {
@@ -680,6 +743,7 @@ a {
 	#mapcontainer h1{
 		font-size: 1em;
 	}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -766,6 +830,11 @@ a {
 
 	.copyright {
 		font-size: 0.6em;
+	}
+
+	.teamrow {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
