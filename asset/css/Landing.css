@@ -218,8 +218,7 @@ a {
 }
 
 #problem1 {
-/*	background-color: red;
-*/	-webkit-flex: 1;
+	-webkit-flex: 1;
     flex: 1;
 
     display: flex;
@@ -424,16 +423,7 @@ a {
 	text-transform: uppercase;
 	text-align: justify;
 	padding-right: 4vw;
-	 /*-webkit-flex: 1;*/
-      /*flex: 1;*/
-}
 
-#showcaseLeftImgBox {
-	 /*-webkit-flex: 2;*/
-      /*flex: 2;*/
-      /*width: 50vw;*/
-     /*height: 50vw;*/
-      /*background-color: red;*/
 }
 
 #showcaseLeftImg {
@@ -453,9 +443,6 @@ a {
 	margin-right: 8vw;
 	display: flex;
 	flex-direction: row-reverse;
-/*	border-bottom-style: solid;
-	border-bottom-color: #b7bdc8;
-	border-bottom-width: 2px;*/
 	padding: 8vh 0vw 8vh 0vw;
 }
 
@@ -464,17 +451,6 @@ a {
 	color: #3d434e;
 	text-transform: uppercase;
 	text-align: justify;
-	padding-right: 4vw;
-	 /*-webkit-flex: 1;*/
-      /*flex: 1;*/
-}
-
-#showcaseRightImgBox {
-	 /*-webkit-flex: 2;*/
-      /*flex: 2;*/
-      /*width: 50vw;*/
-     /*height: 50vw;*/
-      /*background-color: red;*/
 }
 
 #showcaseRightImg {
@@ -482,11 +458,80 @@ a {
 	max-height: 100%;
 
 	width: 25vw;
-	/*padding-top: 4vh;*/
 	padding-right: 4vw;
 	display: inline-block;
 
 }
+
+/*News Styling*/
+
+#newscontainer {
+	background-color: #e7e7e7;
+	padding: 0vw 8vw 0vw 8vw;
+	min-height: 30vh;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Montserrat', sans-serif;
+	color: #3d434e;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#newscontainer h1 {
+	font-size: 1em;
+	padding-top: 1em;
+	min-height: 50px;
+	text-align: center;
+}
+
+#newscontainer p {
+	font-size: 0.8em;
+	text-align: justify;
+	min-height: 75px;
+}
+
+.newsitem {
+	/*background-color: red;*/
+	min-height: 100%;
+	-webkit-flex: 1;
+     flex: 1;
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+.newsimage {
+	max-height: 90px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.newsimagecontainer {
+	height: 100px;
+}
+
+#middlenewsitem {
+	margin: 0vw 8vw 0vw 8vw;
+}
+
+.newsbutton {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #ced0d3;
+	border-radius: 250px;
+	/*margin-top: 2vh;*/
+}
+
+/*Footer styling*/
 
 #footer {
 	background-color: #21252b;
@@ -602,6 +647,14 @@ a {
 	#solutionheader {
 		font-size: 1em;
 	}
+
+	#newscontainer {
+		flex-direction: column;
+	}
+
+	#middlenewsitem {
+	margin: 0vw 0vw 0vw 0vw;
+}
 }
 
 @media screen and (max-width: 600px) {
