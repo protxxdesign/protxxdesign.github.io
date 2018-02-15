@@ -120,6 +120,7 @@ a {
 
 .protxxlanding {
 	width: 100vw;
+	max-width: 100%;
 	background-color: #22262c;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
