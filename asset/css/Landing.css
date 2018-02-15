@@ -580,6 +580,10 @@ a {
 	flex-direction: row;
 }
 
+.teamrow2 {
+	display: none;
+}
+
 .teamimg {
 	width: 70%;
 	display: block;
@@ -744,6 +748,24 @@ a {
 		font-size: 1em;
 	}
 
+		.teamrow {
+		display: none;
+	}
+
+	.teamrow2 {
+		display: flex;
+		flex-direction: row;
+		padding: 0px 8vw 0px 8vw;
+	}
+
+	.teammember h1{
+		font-size: 0.8em;
+	}
+
+	.teammember h2 {
+		font-size: 0.4em;
+	}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -832,10 +854,6 @@ a {
 		font-size: 0.6em;
 	}
 
-	.teamrow {
-		display: flex;
-		flex-direction: column;
-	}
 }
 
 /*Hamburger menu transition*/
