@@ -528,7 +528,28 @@ a {
 	text-align: center;
 	background-color: #ced0d3;
 	border-radius: 250px;
-	/*margin-top: 2vh;*/
+}
+
+/*Map styling*/
+
+#mapcontainer{
+	max-width: 100%;
+	width: 100vw;
+}
+
+#mapimg {
+	width: 100%;
+}
+
+#mapcontainer h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	color: #22262c;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0px 8vw 0px 8vw;
+	text-align: left;
 }
 
 /*Footer styling*/
@@ -655,6 +676,10 @@ a {
 	#middlenewsitem {
 	margin: 0vw 0vw 0vw 0vw;
 }
+
+	#mapcontainer h1{
+		font-size: 1em;
+	}
 }
 
 @media screen and (max-width: 600px) {
