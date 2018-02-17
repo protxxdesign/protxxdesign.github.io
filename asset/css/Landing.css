@@ -539,6 +539,7 @@ a {
 #mapcontainer{
 	max-width: 100%;
 	width: 100vw;
+	height: 20.5vw;
 }
 
 #mapimg {
@@ -762,8 +763,8 @@ a {
 }
 
 /*IE scaling fix (eeeew)*/
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	height: 20.5vw;
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+	
 }
 
 @media all and (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
