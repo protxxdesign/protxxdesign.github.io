@@ -406,6 +406,7 @@ a {
 
 #showcaseImg {
 	width: 300px;
+	max-height: 100%;
 }
 
 #showcaseLeftText {
