@@ -250,7 +250,7 @@ a {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: left;
-	padding-left: 2vw;
+	padding: 2vw 0vw 0vw 2vw;
 
 }
 
@@ -352,7 +352,7 @@ a {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: left;
-	padding-left: 2vw;
+	padding: 2vw 0vw 0vw 2vw;
 
 }
 
