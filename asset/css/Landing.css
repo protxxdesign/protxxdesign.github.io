@@ -764,7 +764,7 @@ a {
 
 /*IE scaling fix (eeeew)*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
-	
+
 }
 
 @media all and (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
@@ -790,6 +790,10 @@ a {
 
 	#solution3{
 		min-height: 60vh;
+	}
+
+	.newsitem {
+		min-height: 32vh;
 	}
 }
 
