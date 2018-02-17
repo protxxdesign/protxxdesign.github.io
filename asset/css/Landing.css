@@ -705,6 +705,42 @@ a {
 	#showcaseRightImg {
 		width: 40vw;
 	}
+
+	/*Problem/solution stack*/
+
+	.problemitem {
+		flex-direction: column;
+		min-height: 30vh;
+	}
+
+	.problemitemicon {
+		    display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		width: 6vw;
+    		height: 6vw;
+	}
+
+	.problemitemtext {
+		font-size: 0.8em;
+	}
+
+	.solutionitem {
+		flex-direction: column;
+		min-height: 30vh;
+	}
+
+	.solutionitemicon {
+		    display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		width: 6vw;
+    		height: 6vw;
+	}
+
+	.solutionitemtext {
+		font-size: 0.8em;
+	}
 }
 
 /*vertical stacking*/
@@ -731,6 +767,42 @@ a {
 
 	#solutioncontainer {
 		flex-direction: column;
+	}
+
+	#problem2 {
+		margin: 0px 0px 0px 0px;
+	}
+
+	#solution2 {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.problemitemicon {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.solutionitemicon {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.problemitemtext {
+		font-size: 1em;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.solutionitemtext {
+		font-size: 1em;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.problemitem {
+		min-height: 0px;
+	}
+
+	.solutionitem {
+		min-height: 0px;
 	}
 
 	#problemheader {
