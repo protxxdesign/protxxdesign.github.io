@@ -539,7 +539,6 @@ a {
 #mapcontainer{
 	max-width: 100%;
 	width: 100vw;
-	height: 20.5vw;
 }
 
 #mapimg {
@@ -763,37 +762,13 @@ a {
 }
 
 /*IE scaling fix (eeeew)*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	height: 20.5vw;
+}
 
 @media all and (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
 	#problem1 {
 	min-height: 60vh;
-	}
-
-	#problem2 {
-		min-height: 60vh;
-	}
-
-	#problem3{
-		min-height: 60vh;
-	}
-
-	#solution1 {
-		min-height: 60vh;
-	}
-
-	#solution2 {
-		min-height: 60vh;
-	}
-
-	#solution3{
-		min-height: 60vh;
-	}
-}
-
-@media screen\0 and (max-width: 750px){
-
-	#problem1 {
-		min-height: 60vh;
 	}
 
 	#problem2 {
