@@ -764,10 +764,6 @@ a {
 
 @media screen and (max-width: 750px) {
 
-	#herotext p {
-		font-size: 1em;
-	}
-
 	#problemcontainer {
 		flex-direction: column;
 	}
@@ -852,7 +848,7 @@ a {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 	
 
 	#herotext h1 {
@@ -862,6 +858,8 @@ a {
 	#herotext p {
 		font-size: 0.5em;
 	}
+
+@media screen and (max-width: 600px) {
 
 	#problemheader {
 		font-size: 0.5em;
