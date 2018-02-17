@@ -746,6 +746,7 @@ a {
 }
 
 /*vertical stacking*/
+
 @media screen and (max-width: 950px) {
 	.herotext {
 		min-width: 80vw;
@@ -762,6 +763,8 @@ a {
 	#herotext p {
 		font-size: 1em;
 	}
+
+@media screen and (max-width: 750px) {
 
 	#problemcontainer {
 		flex-direction: column;
