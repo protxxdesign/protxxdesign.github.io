@@ -723,6 +723,7 @@ a {
 
 	.problemitemtext {
 		font-size: 0.8em;
+		padding: 0vw 0vw 0vw 2vw;
 	}
 
 	.solutionitem {
@@ -740,6 +741,7 @@ a {
 
 	.solutionitemtext {
 		font-size: 0.8em;
+		padding: 0vw 0vw 0vw 2vw;
 	}
 }
 
