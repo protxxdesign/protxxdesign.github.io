@@ -762,6 +762,62 @@ a {
 
 }
 
+/*IE scaling fix (eeeew)*/
+
+@media screen\0 and (max-width: 750px){
+
+	#problem1 {
+		min-height: 60vh;
+	}
+
+	#problem2 {
+		min-height: 60vh;
+	}
+
+	#problem3{
+		min-height: 60vh;
+	}
+
+	#solution1 {
+		min-height: 60vh;
+	}
+
+	#solution2 {
+		min-height: 60vh;
+	}
+
+	#solution3{
+		min-height: 60vh;
+	}
+}
+
+@media screen\9 and (max-width: 750px){
+
+	#problem1 {
+		min-height: 60vh;
+	}
+
+	#problem2 {
+		min-height: 60vh;
+	}
+
+	#problem3{
+		min-height: 60vh;
+	}
+
+	#solution1 {
+		min-height: 60vh;
+	}
+
+	#solution2 {
+		min-height: 60vh;
+	}
+
+	#solution3{
+		min-height: 60vh;
+	}
+}
+
 @media screen and (max-width: 750px) {
 
 	#problemcontainer {
