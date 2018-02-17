@@ -760,12 +760,13 @@ a {
 		font-size: 2em;
 	}
 
-	#herotext p {
-		font-size: 1em;
-	}
 }
 
 @media screen and (max-width: 750px) {
+
+	#herotext p {
+		font-size: 1em;
+	}
 
 	#problemcontainer {
 		flex-direction: column;
