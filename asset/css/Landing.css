@@ -27,7 +27,7 @@ body {
 	justify-content: center;
 	padding: 0px 0px 0px 0px;
 	z-index: 1;
-	display: none;
+	/*display: none;*/
 
 }
 
@@ -47,18 +47,19 @@ a {
     top: 0px;
     transition: top 0.1s ease-in-out;
     background-color: #22262c;
-
+    opacity: 0.7;
 }
 
 .nav-up {
 	position: absolute;
     top: -80px;
     transition: top 0.1s ease-in-out;
+    max-width: 100%;
 }
 
 .navBar {
 	width: 100vw;
-	padding: 2vh 8vw 0vw 8vw;
+	padding: 1vh 8vw 0vw 8vw;
 	}
 
 #projectNavBar {
@@ -67,6 +68,7 @@ a {
 }
 
 #headerBranding {
+	opacity: 1.0;
 	float: left;
 	color: white;
 	height: 100%;
@@ -99,8 +101,9 @@ a {
 }
 
 .navBar li a{
+	opacity: 1.0;
 	display: block;
-	padding: 25px 25px 25px 25px;
+	padding: 2vw 2vw 2vw 2vw;
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -738,7 +741,16 @@ a {
 	}
 }
 
+@media screen and (max-width: 980px) {
+#header {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 1200px) {
+	.navBar li a {
+		padding: 1vw 1vw 1vw 1vw;
+	}
 
 		/*showcase responsive*/
 
@@ -1087,12 +1099,7 @@ a {
 
 }
 
-/*Hamburger menu transition*/
-@media screen and (max-width: 1100px) {
-	#navBarRight {
-		display: none;
-	}
-}
+
 
 /*CSS animations*/
 
