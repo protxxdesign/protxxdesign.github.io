@@ -433,6 +433,10 @@ a {
 
 }
 
+#showcaseLeftTextbox h1 {
+	text-align: left;
+}
+
 #showcaseLeftImg {
 	max-width: 100%
 	max-height: 100%;
@@ -458,6 +462,10 @@ a {
 	color: #3d434e;
 	text-transform: uppercase;
 	text-align: justify;
+}
+
+#showcaseRightTextbox h1 {
+	text-align: left;
 }
 
 #showcaseRightImg {
@@ -795,6 +803,27 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+
+	.herotext {
+		padding-top: 15vw;
+	}
+
+	#herotext {
+		text-align: left;
+	}
+
+	#problemheader {
+		font-size: 1em;
+	}
+
+	#solutionheader {
+		font-size: 1em;
+	}
+
+	#showcaseHeaderBox h1{
+		font-size: 2em;
+	}
+
 	.navBar li a {
 		padding: 1vw 1vw 1vw 1vw;
 	}
@@ -803,6 +832,7 @@ a {
 
 	#showcaseLeftText {
 		flex-direction: column;
+		padding-top: 1em;
 	}
 
 	#showcaseLeftImgBox {
@@ -810,6 +840,7 @@ a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		padding-top: 1em;
 	}
 
 	#showcaseLeftImg {
@@ -819,6 +850,7 @@ a {
 
 	#showcaseRightText {
 		flex-direction: column;
+		padding-top: 1em;
 	}
 
 	#showcaseRightImgBox {
@@ -826,6 +858,7 @@ a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		padding-top: 1em;
 	}
 
 	#showcaseRightImg {
@@ -994,10 +1027,6 @@ a {
 
 	.solutionitem {
 		min-height: 0px;
-	}
-
-	#problemheader {
-		font-size: 1em;
 	}
 
 	#solutionheader {
