@@ -700,6 +700,7 @@ a {
 	background-color: #21252b;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	padding: 0vw 8vw 0vw 8vw;
 }
 
@@ -714,13 +715,36 @@ a {
 	color: white;
 	text-transform: uppercase;
 	text-align: justify;
-	padding: 1em 0em 1em 2em;
+	padding: 1em 1em 1em 2em;
 }
 
 #linkedin {
 	height: 3em;
 	padding: 1em 0em 0em 4em;
 	display: none;
+}
+
+#contact {
+	display: block;
+	float: right;
+	background-color: red;
+	border-radius: 1000px;
+	height: 2.4em;
+	margin: 1.5em 0em 1.5em 0em;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 14em;
+	padding: 0.2em 1em 0em 1em;
+
+}
+
+#contact a{
+	margin: 0em 0em 0em 0em;
+	font-size: 1.5em;
+	color: #21252b;
+	font-weight: 700;
 }
 
 @media screen and (max-width: 1500px) {
@@ -1006,6 +1030,11 @@ a {
 	.teammember h2 {
 		font-size: 0.4em;
 	}
+
+
+	#footer {
+	flex-direction: column;
+}
 
 }
 
