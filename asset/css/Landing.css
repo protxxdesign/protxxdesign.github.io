@@ -474,7 +474,7 @@ a {
 
 #newscontainer {
 	background-color: #e7e7e7;
-	padding: 0vw 8vw 0vw 8vw;
+	padding: 1em 8vw 0vw 8vw;
 	min-height: 30vh;
 	display: flex;
 	flex-direction: row;
@@ -485,16 +485,17 @@ a {
 }
 
 #newscontainer h1 {
-	font-size: 1em;
-	padding-top: 1em;
-	min-height: 50px;
+	font-size: 0.8em;
+	/*padding-top: 1em;*/
+	min-height: 60px;
 	text-align: center;
 }
 
 #newscontainer p {
-	font-size: 0.8em;
+	font-size: 0.7em;
 	text-align: justify;
-	min-height: 75px;
+	min-height: 130px;
+	margin: 0em 0em 0em
 }
 
 .newsitem {
@@ -502,7 +503,7 @@ a {
 	min-height: 100%;
 	-webkit-flex: 1;
      flex: 1;
-    padding: 3vh 0vh 3vh 0vh;
+    padding: 3vh 2vw 3vh 2vw;
 }
 
 .newsimage {
@@ -517,9 +518,9 @@ a {
 	height: 100px;
 }
 
-#middlenewsitem {
+/*#middlenewsitem {
 	margin: 0vw 8vw 0vw 8vw;
-}
+}*/
 
 .newsbutton {
 	font-family: 'Montserrat', sans-serif;
@@ -527,8 +528,9 @@ a {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1em;
+	margin-top: 1em;
 	padding: 0.5em 0.5em 0.5em 0.5em;
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
