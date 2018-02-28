@@ -484,6 +484,13 @@ a {
 	text-align: left;
 }
 
+.newsstack {
+	display: flex;
+	flex-direction: row;
+	-webkit-flex: 1;
+    flex: 1;
+}
+
 #newscontainer h1 {
 	font-size: 0.8em;
 	/*padding-top: 1em;*/
@@ -502,7 +509,7 @@ a {
 	/*background-color: red;*/
 	min-height: 100%;
 	-webkit-flex: 1;
-     flex: 1;
+    flex: 1;
     padding: 3vh 2vw 3vh 2vw;
 }
 
@@ -765,6 +772,20 @@ a {
 #showcaseRightImg {
 		width: 35vw;
 	}
+
+.newsstack {
+	display: flex;
+	flex-direction: column;
+}
+
+.newsitem {
+	min-height: 0px;
+}
+
+#newscontainer p{
+	min-height: 100px;
+}
+
 }
 
 @media screen and (max-width: 1400px) {
