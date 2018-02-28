@@ -59,7 +59,7 @@ a {
 
 .navBar {
 	width: 100vw;
-	padding: 1vh 8vw 0vw 8vw;
+	padding: 0vh 8vw 0vw 8vw;
 	}
 
 #projectNavBar {
@@ -765,7 +765,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1400px) {
 #header {
 		display: none;
 	}
