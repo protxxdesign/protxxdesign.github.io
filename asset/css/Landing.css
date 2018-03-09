@@ -1003,14 +1003,14 @@ a {
 
 }
 
-@media all and (max-width: 1400px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+@media all and (max-width: 1500px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
 	#newscontainer {
 		min-height: 90vh;
 	}
 }
 
 
-@media screen\9 and (max-width: 1400px){
+@media screen\9 and (max-width: 1500px){
 	#newscontainer {
 		min-height: 90vh;
 	}
