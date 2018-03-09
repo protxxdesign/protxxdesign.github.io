@@ -1003,6 +1003,19 @@ a {
 
 }
 
+@media all and (max-width: 1400px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+	#newscontainer {
+		min-height: 90vh;
+	}
+}
+
+
+@media screen\9 and (max-width: 1400px){
+	#newscontainer {
+		min-height: 90vh;
+	}
+}
+
 @media all and (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
 	#problem1 {
 	min-height: 60vh;
@@ -1031,6 +1044,10 @@ a {
 	.newsitem {
 		min-height: 32vh;
 	}
+
+	#newscontainer {
+		min-height: 180vh;
+	}
 }
 
 @media screen\9 and (max-width: 750px){
@@ -1057,6 +1074,14 @@ a {
 
 	#solution3{
 		min-height: 60vh;
+	}
+
+	.newsitem {
+		min-height: 32vh;
+	}
+
+	#newscontainer {
+		min-height: 180vh;
 	}
 }
 
