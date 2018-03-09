@@ -47,7 +47,7 @@ a {
     top: 0px;
     transition: top 0.1s ease-in-out;
     background-color: #22262c;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .nav-up {
@@ -60,6 +60,7 @@ a {
 .navBar {
 	width: 100vw;
 	padding: 0vh 8vw 0vw 8vw;
+	/*display: flex;*/
 	}
 
 #projectNavBar {
@@ -117,6 +118,62 @@ a {
 
 #navBarLeft {
 	float: left;
+}
+
+/*Hamburger menu styling*/
+
+#hamburgercontainer {
+    display: none;
+    cursor: pointer;
+    padding-top: 1.5em;
+    float: right;
+    /*background-color: red;*/
+}
+
+#hamburgernav {
+
+	    display: none;
+   		position: absolute;
+   		right: 00px;
+    	background-color: #22262c;
+    	/*min-width: 100%;*/
+    	z-index: 1;
+    	/*margin-left: 7vw;*/
+		/*margin-right: 7vw;*/
+    	padding-right: 7vw;
+    	padding-left: 7vw;
+    	/*padding: 0vw 8vw 0vw 8vw;*/
+    	/*opacity: 1;*/
+		}
+
+#hamburgernav li a {
+	padding: 1em 1em 1em 1em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 100px;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 /*Landing page responsive styling*/
@@ -798,9 +855,27 @@ a {
 }
 
 @media screen and (max-width: 1400px) {
-#header {
-		display: none;
+
+	.navBar ul{
+	display: none;
 	}
+
+	.logo{
+		height: 30px;
+		padding-top: 1.5em;
+	}
+
+	#hamburgercontainer {
+    display: inline-block;
+}
+	.navBar {
+		padding-bottom: 1em;
+	}
+
+	#headerBranding {
+		align-items: flex-start;
+	}
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -910,6 +985,7 @@ a {
 @media screen and (max-width: 950px) {
 	.herotext {
 		min-width: 80vw;
+		padding-top: 7em;
 	}
 
 	.heroimage {
