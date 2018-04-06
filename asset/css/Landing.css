@@ -1128,9 +1128,13 @@ a {
 		min-height: 32vh;
 	}
 
-/*	#newscontainer {
-		min-height: 180vh;
-	}*/
+	#hiringImage {
+		min-height: 200px;
+	}
+
+	#hiringText {
+		min-height: 200px;
+	}
 }
 
 @media screen\9 and (max-width: 750px){
@@ -1163,9 +1167,13 @@ a {
 		min-height: 32vh;
 	}
 
-/*	#newscontainer {
-		min-height: 180vh;
-	}*/
+	#hiringImage {
+			min-height: 200px;
+		}
+
+	#hiringText {
+		min-height: 200px;
+	}
 }
 
 @media screen and (max-width: 750px) {
