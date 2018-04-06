@@ -594,10 +594,6 @@ a {
 	height: 100px;
 }
 
-/*#middlenewsitem {
-	margin: 0vw 8vw 0vw 8vw;
-}*/
-
 .newsbutton {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -606,7 +602,7 @@ a {
 	font-size: 1em;
 	margin-top: 1em;
 	padding: 0.5em 0.5em 0.5em 0.5em;
-	width: 100%;
+	/*width: 100%;*/
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -661,24 +657,26 @@ a {
 }
 
 #hiringText {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	align-items: center;
 	padding: 1em 3em 0em 3em;
 	/*margin-left: 4em;*/
 	text-align: justify;
 	font-size: 0.5em;
 	flex: 2;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 }
 
 #hiringButton {
-	/*max-width: 50%;*/
+	max-width: 50%;
 	/*display: block;*/
+	margin-left: auto;
+	margin-right: auto;
 	background-color: white;
 	border-radius: 1000px;
 	height: 4em;
-	margin: 1.5em 0em 1.5em 0em;
+	margin-top: 3em;
 	font-family: 'Montserrat', sans-serif;
 	/*color: red;*/
 	text-transform: uppercase;
@@ -1272,7 +1270,23 @@ a {
 
 	#footer {
 	flex-direction: column;
-}
+	}
+
+	#newscontainer h1 {
+     min-height: 0px; 
+	}
+
+	#newscontainer p {
+		min-height: 0px;
+	}
+
+	#newscontainer {
+		padding-bottom: 0em;
+	}
+
+	.newsbutton {
+		max-width: 70%;
+	}
 
 }
 
