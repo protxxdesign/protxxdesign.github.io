@@ -540,14 +540,17 @@ a {
 
 #newscontainer {
 	background-color: #e7e7e7;
-	padding: 1em 8vw 0vw 8vw;
-	min-height: 30vh;
-	display: flex;
-	flex-direction: row;
+	padding: 1em 8vw 1em 8vw;
+	/*min-height: 30vh;*/
+	/*display: flex;*/
+	/*flex-direction: row;*/
 	font-family: 'Montserrat', sans-serif;
 	color: #3d434e;
 	text-transform: uppercase;
 	text-align: left;
+}
+.slicknews {
+	max-width: 100%;
 }
 
 .newsstack {
@@ -848,9 +851,9 @@ a {
 	min-height: 0px;
 }
 
-#newscontainer p{
+/*#newscontainer p{
 	min-height: 100px;
-}
+}*/
 
 }
 
@@ -1004,16 +1007,16 @@ a {
 }
 
 @media all and (max-width: 1500px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
-	#newscontainer {
+/*	#newscontainer {
 		min-height: 90vh;
-	}
+	}*/
 }
 
 
 @media screen\9 and (max-width: 100px){
-	#newscontainer {
+/*	#newscontainer {
 		min-height: 90vh;
-	}
+	}*/
 }
 
 @media all and (max-width: 750px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
@@ -1045,9 +1048,9 @@ a {
 		min-height: 32vh;
 	}
 
-	#newscontainer {
+/*	#newscontainer {
 		min-height: 180vh;
-	}
+	}*/
 }
 
 @media screen\9 and (max-width: 750px){
@@ -1080,9 +1083,9 @@ a {
 		min-height: 32vh;
 	}
 
-	#newscontainer {
+/*	#newscontainer {
 		min-height: 180vh;
-	}
+	}*/
 }
 
 @media screen and (max-width: 750px) {
@@ -1135,9 +1138,9 @@ a {
 		font-size: 1em;
 	}
 
-	#newscontainer {
+/*	#newscontainer {
 		flex-direction: column;
-	}
+	}*/
 
 	#middlenewsitem {
 	margin: 0vw 0vw 0vw 0vw;
