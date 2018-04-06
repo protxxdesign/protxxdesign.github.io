@@ -615,6 +615,87 @@ a {
 	border-radius: 250px;
 }
 
+/*hiring*/
+
+#hiring {
+	/*height: 100px;*/
+	background-color: #fc0d1c;
+	padding: 1em 8vw 1em 8vw;
+	/*min-height: 30vh;*/
+	display: flex;
+	flex-direction: row;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+	#hiring {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	#hiringText {
+		padding: 0em 0em 0em 0em;
+		font-size: 0.5em;
+	}
+
+	#hiringImage {
+		justify-content: center;
+		padding-right: 0em;
+	}
+}
+
+#hiringIMG {
+	max-height: 200px;
+	padding: 1em 0em 1em 0em;
+}
+
+#hiringImage {
+	/*padding-right: 4em;*/
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+#hiringText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em 3em 0em 3em;
+	/*margin-left: 4em;*/
+	text-align: justify;
+	font-size: 0.5em;
+	flex: 2;
+	justify-content: space-around;
+}
+
+#hiringButton {
+	/*max-width: 50%;*/
+	/*display: block;*/
+	background-color: white;
+	border-radius: 1000px;
+	height: 4em;
+	margin: 1.5em 0em 1.5em 0em;
+	font-family: 'Montserrat', sans-serif;
+	/*color: red;*/
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 14em;
+	padding: 1em 2em 0em 2em;
+}
+
+#hiringButton a{
+	margin: 0em 0em 0em 0em;
+	font-size: 2.5em;
+	color: #fc0d1c;
+	font-weight: 700;
+}
+
+
+
 /*Map styling*/
 
 #mapcontainer{
