@@ -579,7 +579,7 @@ a {
 	min-height: 100%;
 	-webkit-flex: 1;
     flex: 1;
-    padding: 3vh 2vw 3vh 2vw;
+    padding: 2vh 2vw 2vh 2vw;
 }
 
 .newsimage {
@@ -1142,9 +1142,9 @@ a {
 		flex-direction: column;
 	}*/
 
-	#middlenewsitem {
+/*	#middlenewsitem {
 	margin: 0vw 0vw 0vw 0vw;
-}
+}*/
 
 	#mapcontainer h1{
 		font-size: 1em;
