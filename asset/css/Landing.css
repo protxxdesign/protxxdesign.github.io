@@ -645,7 +645,8 @@ a {
 }
 
 #hiringIMG {
-	max-height: 200px;
+	height: 200px;
+	width: 200px;
 	padding: 1em 0em 1em 0em;
 }
 
@@ -1287,6 +1288,9 @@ a {
 	.newsbutton {
 		max-width: 70%;
 	}
+
+	#hiringButton {
+	max-width: 80%;
 
 }
 
