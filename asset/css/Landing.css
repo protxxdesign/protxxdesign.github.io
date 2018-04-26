@@ -647,7 +647,7 @@ a {
 #hiringIMG {
 	height: 200px;
 	width: 200px;
-	padding: 1em 0em 1em 0em;
+	padding: 2em 0em 1em 0em;
 }
 
 #hiringImage {
@@ -670,8 +670,8 @@ a {
 }
 
 #hiringButton {
-	max-width: 50%;
-	/*display: block;*/
+	max-width: 70%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
@@ -684,6 +684,7 @@ a {
 	text-align: center;
 	min-width: 14em;
 	padding: 1em 2em 0em 2em;
+	/*flex: 1;*/
 }
 
 #hiringButton a{
@@ -691,6 +692,29 @@ a {
 	font-size: 2.5em;
 	color: #fc0d1c;
 	font-weight: 700;
+}
+
+#buttonContainer {
+	/*display: flex;*/
+}
+
+@media screen and (max-width: 1300px) {
+	#hiringButton {
+		font-size: 0.75em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#hiringButton {
+		font-size: 0.6em;
+		padding: 2em 2em 0em 2em;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#hiringButton {
+		font-size: 1vw;
+	}
 }
 
 
