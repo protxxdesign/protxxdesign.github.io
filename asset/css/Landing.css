@@ -759,6 +759,20 @@ a {
 	font-size: 1.5em;
 }
 
+#teamIntro {
+	padding: 2vh 12vw 2vh 12vw;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	text-align: justify;
+
+}
+
+#teamIntro h1 {
+		font-weight: 400;
+}
+
 #teamcontainer {
 	padding: 0vw 0vw 1em 0vw;
 	background-color: #22262c;
