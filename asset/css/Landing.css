@@ -630,6 +630,10 @@ a {
 	#hiring {
 		flex-direction: column;
 	}
+
+	#hiringButton {
+		padding: 1em 0em 0em 0em;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -1171,7 +1175,7 @@ a {
 	}
 
 	#hiringText {
-		min-height: 200px;
+		min-height: 300px;
 	}
 }
 
@@ -1210,7 +1214,7 @@ a {
 		}
 
 	#hiringText {
-		min-height: 200px;
+		min-height: 300px;
 	}
 }
 
