@@ -212,7 +212,7 @@ a {
 }
 
 #herotext p {
-	text-transform: uppercase;
+	/*text-transform: capitalize;*/
 }
 
 .heroimage{
@@ -308,7 +308,7 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 	color: #3d434e;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 400;
 	text-align: left;
 	padding: 2vw 0vw 0vw 2vw;
@@ -410,7 +410,7 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 	color: white;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 400;
 	text-align: left;
 	padding: 2vw 0vw 0vw 2vw;
@@ -476,16 +476,60 @@ a {
 	margin-right: 8vw;
 	display: flex;
 	flex-direction: row;
+	/*border-bottom-style: solid;
+	border-bottom-color: #b7bdc8;
+	border-bottom-width: 2px;*/
+	padding: 8vh 0vw 8vh 0vw;
+}
+#four_sec {
+	background-color: white;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	display: flex;
+	flex-direction: row;
 	border-bottom-style: solid;
 	border-bottom-color: #b7bdc8;
 	border-bottom-width: 2px;
-	padding: 8vh 0vw 8vh 0vw;
+	padding: 0 0vw 8vh 0vw;
+	    font-family: 'Montserrat', sans-serif;
+    color: #3d434e;
+    /* text-transform: uppercase; */
+    text-align: justify;
 }
-
+#four_sec {
+	width: 1192px;
+	margin:auto;
+}
+.double_col {
+	width:50%;
+	float:left;
+}
+.double_col .full_img {
+	float: left;
+	width: 365px;
+	text-align: center;
+}
+.double_col .full_img img,.double_col .half_img img {
+	width:100%;
+	border: 2px solid #000;
+}
+.double_col h3 {
+	min-height: 55px;
+}
+.double_col .half_img {
+	width: 230px;
+	/* vertical-align:top; */
+	float: left;
+	text-align: center;
+}
+.double_col h3 {
+	font-size: 17px;
+	margin: 0px;
+}
 #showcaseLeftTextbox {
 	font-family: 'Montserrat', sans-serif;
 	color: #3d434e;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: justify;
 	padding-right: 4vw;
 
@@ -493,15 +537,24 @@ a {
 
 #showcaseLeftTextbox h1 {
 	text-align: left;
+	text-transform:uppercase;
 }
-
+#showcaseLeftTextbox h2 {
+	text-transform:uppercase;
+}
+.clear {
+	clear:both;
+}
 #showcaseLeftImg {
-	max-width: 100%
-	max-height: 100%;
-
-	width: 25vw;
+	/*max-width: 100%;*/
+	/*max-height: 100%;
+*/
+	/*width: 25vw;*/
+	width:400px;
+/*	height:400px;*/
+	border-radius:50%;
 	/*padding-top: 4vh;*/
-	padding-right: 4vw;
+	/*padding-right: 4vw;*/
 	display: inline-block;
 
 }
@@ -518,14 +571,16 @@ a {
 #showcaseRightTextbox {
 	font-family: 'Montserrat', sans-serif;
 	color: #3d434e;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: justify;
 }
 
 #showcaseRightTextbox h1 {
 	text-align: left;
 }
-
+#showcaseRightTextbox h2 {
+	text-transform:uppercase;
+}
 #showcaseRightImg {
 	max-width: 100%
 	max-height: 100%;
@@ -622,10 +677,45 @@ a {
 	flex-direction: row;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: left;
 }
+.four_caption {
+	width:25%;
+	position:relative;
+}
+.four_caption p {
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding:0px 15px;
+	color:#f1f0f2;
+	font-size: 23px;
+	text-align:left;
+	text-shadow: 0px 3px 2px rgb(98, 95, 95);
+	font-weight: 500;
+}
+.four_caption img {
+	width:100%;
+}
+.four_caption p {
 
+}
+/*my style begin*/
+@media (max-width: 1199px) {
+	#four_sec {width:100%;}
+	.double_col .full_img,.double_col .half_img {width:99%;}
+	.double_col h3 {
+    min-height: 55px;
+    margin-top: 40px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
+	#four_sec {width:97%;}
+}
+/*my style end*/
 @media screen and (max-width: 750px) {
 	#hiring {
 		flex-direction: column;
@@ -671,6 +761,11 @@ a {
 	font-size: 0.5em;
 	flex: 2;
 	/*justify-content: space-around;*/
+}
+@media (min-width: 1199px){
+	#hiringText  {
+		padding: 7em 3em 0em 3em;
+	}
 }
 
 #hiringButton {
@@ -767,7 +862,7 @@ a {
 	padding: 2vh 12vw 2vh 12vw;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 0.5em;
 	text-align: justify;
 
@@ -795,6 +890,7 @@ a {
 .teamimg {
 	width: 70%;
 	display: block;
+	border-radius:50%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1035,6 +1131,10 @@ a {
 	#showcaseLeftText {
 		flex-direction: column;
 		padding-top: 1em;
+	}
+
+	#showcaseLeftText {
+		padding-bottom:0px;
 	}
 
 	#showcaseLeftImgBox {
