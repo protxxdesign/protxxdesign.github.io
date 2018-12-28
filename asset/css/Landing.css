@@ -714,6 +714,7 @@ a {
 }
 @media (max-width: 767px) {
 	#four_sec {width:97%;}
+	.double_col h3 {font-size: 11px;min-height: 45px;}
 }
 /*my style end*/
 @media screen and (max-width: 750px) {
