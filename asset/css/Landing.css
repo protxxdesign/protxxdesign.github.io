@@ -563,7 +563,7 @@ a {
 	background-color: white;
 	margin-left: 8vw;
 	margin-right: 8vw;
-	display: flex;
+	/* display: flex; */
 	flex-direction: row-reverse;
 	padding: 8vh 0vw 8vh 0vw;
 }
@@ -573,8 +573,53 @@ a {
 	color: #3d434e;
 	/*text-transform: uppercase;*/
 	text-align: justify;
+	/*width:50%;*/
 }
-
+#showcaseRightImgBox {
+	/*width:50%;*/
+	/* float: left; */
+}
+.sec_left_img {
+	width: 58%;
+	display:inline-block;
+	vertical-align: middle;
+}
+.sec_right_img {
+	width: 34%;
+	display:inline-block;
+	vertical-align: bottom;
+	margin-right: 15px;
+}
+.left_mobile_app {
+	width: 52%;
+	display: inline-block;
+}
+.right_mobile_app {
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+}
+.pic_txt {
+	font-size:18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:900;
+}
+.sec_double_column .right_mobile_app {
+	width:65%;
+}
+.sec_double_column .left_mobile_app {
+	width:34%;
+}
+.sec_double_column .sec_right_img {
+	width:23%;
+	vertical-align:top;
+}
+.sec_double_column .sec_left_img {
+	width:73%;
+}
+.sec_double_column .left_mobile_app p:first-child {
+	margin-top:0px;
+}
 #showcaseRightTextbox h1 {
 	text-align: left;
 }
@@ -582,13 +627,11 @@ a {
 	text-transform:uppercase;
 }
 #showcaseRightImg {
-	max-width: 100%
+	max-width: 100%;
 	max-height: 100%;
-
-	width: 25vw;
-	padding-right: 4vw;
+	padding-right: 15px;
 	display: inline-block;
-
+	vertical-align: middle;
 }
 
 /*News Styling*/
@@ -715,6 +758,24 @@ a {
 @media (max-width: 767px) {
 	#four_sec {width:97%;}
 	.double_col h3 {font-size: 11px;min-height: 45px;}
+	.sec_left_img,.sec_double_column .sec_left_img {
+		width:100%;
+	}
+	.sec_right_img,.sec_double_column .sec_right_img {
+		width:100%;
+	}
+	#showcaseRightImg {
+		width:100% !important;
+	}
+	.sec_double_column .left_mobile_app {
+		margin-top:20px;
+	}
+	#showcaseRightText {
+		padding-top:0;
+	}
+	#showcaseRightText {
+		    padding: 0 0vw 0 0vw;
+	}
 }
 /*my style end*/
 @media screen and (max-width: 750px) {
@@ -1157,13 +1218,17 @@ a {
 	}
 
 	#showcaseRightImgBox {
-		width: 100%;
-		display: flex;
+		/*display: flex;*/
 		justify-content: center;
 		align-items: center;
 		padding-top: 1em;
 	}
-
+	.right_mobile_app,.sec_double_column .right_mobile_app {
+		width:100%;
+	}
+	.left_mobile_app,.sec_double_column .left_mobile_app {
+		width:100%;
+	}
 	#showcaseRightImg {
 		width: 40vw;
 	}
