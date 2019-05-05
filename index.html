@@ -1,846 +1,575 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <title>ProtXX</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="asset/img/icons/Protxx_Favicon.png" />
-
-    <!-- Some interesting tidbits for the google crawlers to glean -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/Protxx_Favicon.png" />
     <meta name="description" content="ProtXX tackles the most pressing sports impact injury concerns">
     <meta name="keywords" content="sports, medicine">
-
-	<!-- CSS FOR THE LANDING -->
-    <link href="asset/css/Landing.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-                
-    <script
-	  src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	  crossorigin="anonymous"></script>
-
-</head>
-
-</head>
-    <body id="body">
-
-<!-- header -->
-
-            <div id = 'header' class = 'nav-down'>
-                
-                <div class = 'navBar'>
-               
-                <div id = 'headerBranding'>
-                    <a href="index.html">
-                        <img class = "logo" src="asset/img/logo/protxx_logo.png"> 
-                        <!-- <a href="index.html">ZACK EWING</a> -->
-                    </a>
-                </div>
-
-                    <ul id='navBarRight'>
-                        <li><a href="#theproblem">The Problem</a></li>
-                        <li><a href="#oursolution">Our Solution</a></li>
-                        <li><a href="#howwedoit">How we do it</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#leadership">Leadership</a></li>
-                        <li><a href="#advisors">Advisors</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-
-                    <div id="hamburgercontainer" onclick="hamburgertransform(this)">
-
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-
-                    <ul id='hamburgernav' style="display: none">
-                        <li><a href="#theproblem">The Problem</a></li>
-                        <li><a href="#oursolution">Our Solution</a></li>
-                        <li><a href="#howwedoit">How we do it</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#leadership">Leadership</a></li>
-                        <li><a href="#advisors">Advisors</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    
-                    </div>
-
-                </div>
+    <title>ProtXX</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+      </head>
+      <body class="pushmenu-push" id="top">
+        <!-- menu icon area -->
+        <div class="container mob_icon">
+         <section class="buttonset">
+          <div id="nav_list"></div>
+          <div class="clearfix"></div>
+        </section>
+      </div>
+      <!-- menu icon area --> 
+      <!-- header begin -->
+      <header >
+        <!-- menu begin -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+            <a class="pull-left logo" href="index.html"><img src="images/protxx_logo.png"></a>
+            <div class="menu pull-right">
+                <nav>
+                      <div class="pushmenu pushmenu-left">
+                        <ul id="top-menu">
+                          <li class="active"><a href="#home">Home </a></li>
+                          <li><a href="#the_problem">The Problem</a></li>   
+                          <li><a href="#our_solution">Our Solution </a></li>   
+                          <li><a href="#news">News</a></li>   
+                          <li><a href="#team">Team</a></li>   
+                          <li><a href="#contact">Contact</a></li>   
+                        </ul>
+                      </div>
+                 </nav>
+              </div>
             </div>
-
-<!-- Landing -->
-
-            <div class="protxxlanding">
+          </div>
 
 
-                <div class="herotext">
-                        <img class="landinglogo" src="asset/img/landing/protxx_logo.svg">
-
-                        <div id = "herotext">
-                        <h1> make the game safer </h1>
-                        <p>With the Protxx wearable sensor and data platform, real-time athlete biometrics that enable early intervention,
-safer play, reduced injury incidence and severity, improved recovery outcomes, and higher levels of performance
-are now available during every game and practice.</p>
-                        </div>
-
-                </div>
-
-                <div class="heroimage">
-
-                    <img class = "landingimage" src="asset/img/landing/landing_football.png">
-
-                </div>
-
+        </div>
+        <!-- menu end -->
+      </header>
+      <!-- header end -->
+      <!-- part-1 begin -->
+      <section class="home_banner" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>Introducing the New Vital Sign</h1>
+                <p>The PROTXX wearable sensor enables precision balance tests as an information-rich new vital sign to assess and manage fatigue, impairment, injury and disease.</p>
+                <p>PROTXX proprietary data sets and machine learning insights  drive the shift from expensive and reactive health care to more efficient and higher quality preventive care and performance optimization.</p>
             </div>
-
-<!-- Problem panel -->
-            <a name="theproblem"></a>
-            <div id="problemheader">
-                <h1>the way we handle impact injuries in sports today is broken</h1>
+          </div>
+        </div>
+      </section>
+      <!-- part-1 end -->
+      <!-- part-2 begin -->
+      <section id="the_problem">
+        <div class="title_bar">
+          <div class="container text-center">
+            <h2>Bringing Precision Balance Testing to Billions of Underserved Users</h2>
+          </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                  <ul class="fade list-unstyled">
+                    <li><img src="images/Athlete.png"><span>Athletic</span></li>
+                    <li><img src="images/Elderly.png"><span>Elderly</span></li>
+                    <li><img src="images/Industrial.png"><span>Industrial</span></li>
+                    <li><img src="images/Military.png"><span>Military</span></li>
+                  </ul>
+              </div>
+              <div class="col-sm-7">
+                <p>Balance is an indicator of more disorders than any other non-invasive assessment tool, but testing is limited to less than 5% of potential patients and users because:</p>
+                <ul class="list_style">
+                  <li>Test equipment is too expensive and requires trained professionals. </li>
+                  <li>Test sensitivity is often insufficient to identify many disorders.</li>
+                  <li>Test protocols take too much time. </li>
+                </ul>
+                <p>Delayed diagnoses and treatment further reduce patient well being and greatly increase cost of care. </p>
+              </div>
             </div>
-
-            <div id="problemarrow">
-                <img id="probarrow" src ="asset/img/problem/probarrow.png" >
+          
+        </div>
+      </section>
+      <!-- part-2 end -->
+      <!-- part-3 begin -->
+       <section id="our_solution">
+        <div class="title_bar">
+          <div class="container text-center">
+            <h2>Precision Balance Testing: Platform as a Service Solution</h2>
+          </div>
+          </div>
+          <div class="dark_content">
+            <div class="container">
+              <ul class="list-inline text-center">
+                 <li class="col-sm-4 col-xs-4">
+                  <div class="vertical_content">
+                    <div class="inner_vertical">
+                      <img src="images/precision_sensor.png">
+                    </div>
+                  </div>
+                      <span>Precision Sensor</span>
+                </li>
+                <li class="col-sm-4 col-xs-4">
+                  <div class="vertical_content">
+                    <div class="inner_vertical">
+                      <img src="images/mobile_app.png">
+                    </div>
+                  </div>
+                      <span>Mobile App</span>
+                </li>
+                <li class="col-sm-4 col-xs-4">
+                  <div class="vertical_content">
+                    <div class="inner_vertical">
+                      <img src="images/data_an_cloudalytics.png">
+                    </div>
+                  </div>
+                      <span>Data Analytics</span>
+                </li>
+              </ul>
             </div>
-
-            <div id="problemcontainer">
-                <div id="problem1">
-
-                    <img class="problemicon" src="asset/img/icons/CIRCLEtesting.svg">
-                    <h1 class = "problemh1">insufficient testing</h1>
-                    
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/identification.svg">
-                        <p class ="problemitemtext">Unreliable identification of concussions puts athletes at significant risk </p>
-                    </div>
-
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/zero.svg">
-                        <p class ="problemitemtext">No assessment of sub-concussive head impact injuries, or related orthopedic injuries</p>
-                    </div>
-
-                </div>
-
-
-                 <div id="problem2">
-
-                 <img class="problemicon" src="asset/img/icons/CIRCLEprocedure.svg">
-                    <h1 class = "problemh1">unsafe procedures</h1>
-                    
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/helmetDARK.svg">
-                        <p class ="problemitemtext">Athletes are only removed from play when symptoms are so severe that injury is immediately obvious</p>
-                    </div>
-
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/longterm.svg">
-                        <p class ="problemitemtext">Neurological and orthopedic trauma are allowed to build up over time, leading to long-term degenerative effects</p>
-                    </div>
-
-                </div>
-
-                 <div id="problem3">
-
-                 <img class="problemicon" src="asset/img/icons/CIRCLEconcerns.svg">
-                    <h1 class = "problemh1">growing concerns</h1>
-                    
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/up.svg">
-                        <p class ="problemitemtext">Growing awareness of long-term brain injury risks is driving up medical and legal costs in sports </p>
-                    </div>
-
-                    <div class = "problemitem">
-                        <img class="problemitemicon" src="asset/img/icons/down.svg">
-                        <p class ="problemitemtext">Declining participation is threatening the viability of many youth, collegiate, and professional sports.</p>
-                    </div>
-
-                </div>
+            <div class="container pad_extra">
+             <p>The patented PROTXX multi-function sensor integrates a precision balance monitor and a head impact dosimeter into an unobtrusive device that can be worn behind the ear by users of any age.</p>
+              <p>The enhanced sensitivity of the PROTXX sensor, combined with proprietary machine learning algorithms, allows health care professionals to identify and more effectively manage a wider range of fatigue, impairment, injury and disease conditions.</p>
+              <p>PROTXX balance measurements can be performed on one or more users in less than one minute in any location.</p>
             </div>
-
-
-<!-- Solution Panel -->
-            <a name="oursolution"></a>
-
-            <div id="solutionheader">
-                <h1>protxx tackles the most pressing impact injury concerns</h1>
-            </div>
-
-            <div id="solutionarrow">
-                <img id="solarrow" src ="asset/img/solution/solarrow.png" >
-            </div>
-
-            <div id="solutioncontainer">
-                
-                <div id="solution1">
-
-                    <img class="solutionicon" src="asset/img/icons/CIRCLEquantitative.svg">
-                    <h1 class = "solutionh1">quantitative injury risk management</h1>
-                    
-                    <div class = "solutionitem">
-                        <img class="solutionitemicon" src="asset/img/icons/helmetWHITE.svg">
-                        <p class ="solutionitemtext">Real-time monitoring of cumulative impact exposure enables more comprehensive "flag-for-assessment" protocols</p>
-                    </div>
-
-                    <div class = "solutionitem">
-                        <img class="solutionitemicon" src="asset/img/icons/sway.svg">
-                        <p class ="solutionitemtext">Neurological and orthopedic fitness snapshot through precision balance testing</p>
-                    </div>
-
-                </div>
-
-                 <div id="solution2">
-
-                    <img class="solutionicon" src="asset/img/icons/CIRCLEinsights.svg">
-                    <h1 class = "solutionh1">data-driven insights</h1>
-                    
-                    <div class = "solutionitem">
-                        <img class="solutionitemicon" src="asset/img/icons/realtime.svg">
-                        <p class ="solutionitemtext">Real-time data empowers early intervention and targeted treatment </p>
-                    </div>
-
-                    <div class = "solutionitem">
-                        <img class="solutionitemicon" src="asset/img/icons/returntoplay.svg">
-                        <p class ="solutionitemtext">Analysis of injury severity and progression ensures athletes don't return to play until it is safe</p>
-                    </div>
-
-                </div>
-
-                 <div id="solution3">
-
-                    <img class="solutionicon" src="asset/img/icons/CIRCLEfunctionality.svg">
-                    <h1 class = "solutionh1">growing functionality</h1>
-                    
-                    <div class = "solutionitem">
-                        <img class="solutionitemicon" src="asset/img/icons/ortho.svg">
-                        <p class ="solutionitemtext">Monitoring onset and progression of impact-induced changes in neural, vestibular, and musculoskeletal physiology.</p>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-<!-- solution showcase -->
-            <a name="howwedoit"></a>
-
-            <div id = "showcase">
-
-                <div id = "showcaseHeader">
-                    <div id = "showcaseHeaderBox">
-                        <img id = "showcaseImg" src="asset/img/solution-showcase/protxx_logo_dark.svg">
-                        <h1> a huge leap forward </h1>
-                    </div> 
-
-                </div>
-
-                <div id = "showcaseLeftText">
-                    <div id = "showcaseLeftTextbox">
-                        <h1>the protxx wearable sensor</h1>
-                        <h2>one device, countless insights</h2>
-                      
-                        <p>Unlike neurocognitive testing tools that diagnose symptom severity after a concussion has already occurred, or concussion sensors in helmets and mouth guards that are plagued by helmet motion problems and mouthguard chewing damage, the dual-function Protxx head-mounted sensor provides actionable real-time data in a form factor suitable for athletes of any age or skill level and in any sport.</p>
-
-                        <p>The Protxx sensor functions as a very sensitive "seismometer for the brain", and it has two functions.
-                        As a head impact dosimeter, it warns when cumulative impact exposures approach levels that could lead to permanent damage.
-                        As a precision balance monitor, it quantifies the severity and duration of balance impairments that result from impact-induced changes in neurovestibular and musculoskeletal physiology.</p>
-
-                    </div> 
-
-                    <div id = "showcaseLeftImgBox">
-                        <img id = "showcaseLeftImg" src = "asset/img/solution-showcase/sensor-one.jpg">    
-                    </div>
-                </div>
-                <div id="four_sec">
-                    <div class="double_col">
-                        <div class="full_img">
-                        <h3>Integrated sensors, processor, memory,
-wireless link, rechargeable battery</h3>
-                        <img src="asset/img/1.jpg">
-                        </div>
-                        <div class="half_img">
-                        <h3>Advanced wearable adhesive technology</h3>
-                        <img src="asset/img/2.jpg">
-                        </div>
-                    </div>
-                    <div class="double_col">
-                        <div class="full_img">
-                        <h3>Protxx "Team"<br> (up to 24 sensors)</h3>
-                        <img src="asset/img/3.jpg">
-                        </div>
-                        <div class="half_img">
-                        <h3>Protxx "Clinic"<br> (2 sensors)</h3>
-                        <img src="asset/img/4.jpg">
-                        </div>
-                     </div>
-                </div>
-
-                                <div id = "showcaseRightText">
-                                     <div class="right_mobile_app" id = "showcaseRightImgBox">
-                        <div class="sec_right_img">
-                        <img id = "showcaseRightImg" src="asset/img/solution-showcase/protxx-team-app.jpg">     
-                         <p class="pic_txt">Protxx <i>Team</i> app</p>   
-                        </div>
-                        <div class="sec_left_img" >
-                        <img id = "showcaseRightImg" src = "asset/img/solution-showcase/app_image.png">
-                        </div>
-
-                    </div>
-                    <div class="left_mobile_app" id = "showcaseRightTextbox">
-                        <h1>THE PROTXX MOBILE APP AND DATA ANALYTICS PLATFORM</h1>
-                        <h2>real-time analytics in the palm of your hand</h2>
-                        <p>The Protxx mobile app, coupled with a powerful data analytics engine, helps monitor athlete performance and track the onset and progression of changes to both neurovestibular and musculoskeletal physiology triggered by impact exposure.</p>
-                        <p>The Protxx <i>Team</i> app integrates impact monitoring and balance testing, and allows athletic trainers and sports medicine professionals to monitor and test an entire sensor-equipped  team in parallel. These quick and thorough daily assessments allow cumulative impact exposure to be limited and athletes at risk to be proactively identified, flagged for evaluation, triaged, and referred to the appropriate healthcare provider for any required further assessments and treatment.</p>
-
-                    </div> 
-
-
-                </div>
-                                              <div class="sec_double_column" id = "showcaseRightText">
-                                     <div class="right_mobile_app" id = "showcaseRightImgBox">
-                        <div class="sec_right_img">
-                        <img id = "showcaseRightImg" src="asset/img/solution-showcase/protxx-clinic-app.jpg">     
-                         <p class="pic_txt">Protxx <i>Clinic</i> app</p>   
-                        </div>
-                        <div class="sec_left_img" >
-                        <img id = "showcaseRightImg" src = "asset/img/solution-showcase/protxx-clinic-app-screens.png">
-                        </div>
-
-                    </div>
-                    <div class="left_mobile_app" id = "showcaseRightTextbox">
-                        <p>The Protxx <i>Clinic</i> app is designed to enhance coordination with and support from clinical specialists and rehabilitation professionals when an athlete requires follow-up balance assessments during treatment or recovery, providing a powerful new tool to help improve rehabilitation outcomes when injuries do occur.</p>
-                        <p>The Protxx solution is universally applicable to any athletic, military, or industrial environment, and is leveraging support from the growing number of healthcare insurers who are reimbursing wearables for their members.</p>
-
-                    </div> 
-
-
-                </div>
-                                               
-
-            </div>
-
-<!-- News Reel -->
-          <!--   <a name="news"></a>
-
-            <div id="newscontainer">
-
-                <div class="newsstack">
-
-                    <div class="newsitem">
-                        <div class="newsimagecontainer">
-                            <img class="newsimage" src="asset/img/news/medicalwearables.png">  
-                        </div>
-                        <h1>2018 Medical Wearables Conference</h1>
-                        <p>Protxx CEO John Ralston to present invited talk on "Neurological and orthopedic applications of precision MEMS sensors" at the 2018 Medical Wearables Conference, Santa Clara, CA, May 16-17, 2018</p>
-                        <a class="newsbutton" href="http://www.medwearablesconference.com/speakers.html" class="button">learn more</a>
-                    </div>
-
-                    <div class="newsitem">
-                        <div class="newsimagecontainer">
-                            <img class="newsimage" src="asset/img/news/MITSLOAN.png">  
-                        </div>
-                        <h1>Startup Competition Winner - 2018 MIT Sloan Sports Analytics Conference</h1>
-                        <p>Congratulation to the Protxx team on winning the Startup Competition at the 12th Annual MIT Sloan Sports Analytics Conference, February 23-24, 2018 – Boston Convention and Exhibit Center, Boston, MA</p>
-                        <a class="newsbutton" href="http://www.sloansportsconference.com/mit_news/ssac-18-day-two-recap/" class="button">learn more</a>
-                    </div>
-
-                </div>
-
-                <div class="newsstack">
-
-                    <div class="newsitem">
-                        <div class="newsimagecontainer">
-                            <img class="newsimage" src="asset/img/news/IEEE2017.png">  
-                        </div>
-                        <h1>IEEE sensors 2017</h1>
-                        <p>Come and see Protxx at the IEEE Sensors 2017 Conference, October 29 - November 1, 2017 – Scottish Events Campus, Glasgow, Scotland</p>
-                        <a class="newsbutton" href="http://ieee-sensors2017.org/" class="button">learn more</a>
-                    </div>
-
-                    <div class="newsitem">
-                        <div class="newsimagecontainer">
-                            <img class="newsimage" src="asset/img/news/IEEEcouncil.png">  
-                        </div>
-                        <h1>IEEE Brain Sensors Workshop</h1>
-                        <p>Join Protxx at the IEEE Brain SENSORS Workshop, November 2, 2017 – Glasgow, Scotland</p>
-                        <a class="newsbutton" href="http://brain.ieee.org/wp-content/uploads/sites/52/2015/12/BRAIN-2017-Glasgow-WS-063017.pdf" class="button">learn more</a>
-                    </div>
-
-                </div>
-
-            </div>
- -->
-<!-- SLick News Reel -->
-     <a name="news"></a>
-    <div id = newscontainer>
+          </div>
+      </section>
+      <!-- part-3 end -->
+      <!-- part-4 begin -->
+      <div id="news">
+      <div class="container text-center">
         <div class="slickNews">
-            <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/wearable-technologies-europe-2019.png">  
+          <div class="newsitem">
+                <div class="img_h">
+                <img src="images/ieee.png">  
                 </div>
-                <h1>WEARABLE TECHNOLOGIES EUROPE 2019</h1>
-                <p>PROTXX CEO JOHN RALSTON WILL BE GIVING AN INVITED TALK AT THE WEARABLE TECHNOLOGIES EUROPE CONFERENCE, FEB 3-6, 2019, IN MUNICH, GERMANY</p>
-                <a class="newsbutton" href="https://www.wearable-technologies.eu/" class="button">learn more</a>
+                <h3>PROTXX Medical Advances Leverage Machine Learning and Wearable Sensors</h3>
+                <p>PROTXX TO PRESENT <b>“Signal Classification of Wearable Inertial Motion Sensor Data Using a Convolutional Neural Network.”</b> IEEE BHI/BSN CONFERENCE, CHICAGO, IL, MAY  19-22, 2019.</p>
+                <a class="site_btn" href="https://www.bhi-bsn-2019.org/" class="button" target="_blank">learn more</a>
+            </div>
+            <div class="newsitem">
+               <div class="img_h">
+                <img src="images/medical.png">  
+              </div>
+                <h3>PROTXX Publishes Ground-Breaking Precision Balance Research</h3>
+                <p><b>“Monitoring of postural sway with a head-mounted wearable device: effects of gender, participant state, and concussion.”</b> Medical Devices: Evidence and RESEARCH, MAY 2019: 12; 151–164.</p>
+                <a class="site_btn" href="https://www.dovepress.com/getfile.php?fileID=49513" class="button" target="_blank">Download article</a>
+            </div>
+            <div class="newsitem">
+               <div class="img_h">
+                <img src="images/2019_industry.png">  
+              </div>
+                <h3>2019 Industry Showcase: IEEE Biology & Healthcare Informatics</h3>
+                <p>WE ARE EXCITED TO ANNOUNCE THAT PROTXX IS A FINALIST IN THE 2019 INDUSTRY SHOWCASE AT THE IEEE BHI/BSN CONFERENCE IN CHICAGO, MAY  19-22, 2019.</p>
+                <a class="site_btn" href="https://www.bhi-bsn-2019.org/bhi-bsn-2019-industry-showcase/" class="button" target="_blank">learn more</a>
+            </div>
+              <div class="newsitem">
+                <div class="img_h">
+                <img src="images/ucsf.png">  
+                </div>
+                <h3>UCSF Rosenman Innovators 2019</h3>
+                <p>WE ARE EXCITED TO ANNOUNCE THAT PROTXX HAS BEEN SHORTLISTED TO PRESENT TO THE JUDGING PANEL FOR THE 2019 UCSF ROSENMAN INNOVATORS ON MAY 15, 2019 AT THE UCSF MISSION BAY CAMPUS IN SAN FRANCISCO.</p>
+                <a class="site_btn" href="https://rosenmaninstitute.org/rosenman-innovators" class="button" target="_blank">learn more</a>
+            </div>
+            <div class="newsitem">
+               <div class="img_h">
+                <img src="images/standard_sports.png">  
+              </div>
+                <h3>Stanford Sports Concussion Summit</h3>
+                <p>PREVIEW OUR LATEST CLINICAL CONCUSSION AND SUB-CONCUSSIVE HEAD INJURY STUDIES AND DEMO THE PROTXX WEARABLE SENSOR. HOSTED BY STANFORD MEDICINE AT THE ARRILLAGA FAMILY SPORTS CENTER, APRIL 27, 2019.</p>
+                <a class="site_btn" href="https://med.stanford.edu/cme/courses/2019/concussion_full.html" class="button" target="_blank">learn more</a>
+            </div>
+            <div class="newsitem">
+               <div class="img_h">
+                <img src="images/sports.png">  
+              </div>
+                <h3>Stanford GSB Sports Innovation Conference</h3>
+                <p>VISIT THE PROTXX DEMO TABLE AND HEAR US PRESENT ALONG  WITH A FULL DAY OF OTHER EXCTING SPORTS INNOVATION EXPERTS AND VISIONARIES AT THE STANFORD GRADUATE SCHOOL OF BUSINESS, FEB 27, 2019.</p>
+                <a class="site_btn" href="http://gsbsic.stanford.edu/" class="button" target="_blank">learn more</a>
+            </div>
+            <div class="newsitem">
+               <div class="img_h">
+                <img src="images/wearable-technologies-europe-2019.png"> 
+              </div> 
+                <h3>Wearable Technologies Europe 2019</h3>
+                <p>WE ARE EXCITED TO ANNOUNCE THAT PROTXX IS A FINALIST IN THE 2019 INDUSTRY SHOWCASE AT THE IEEE BHI/BSN CONFERENCE IN CHICAGO, MAY  19-22, 2019.</p>
+                <a class="site_btn" href="https://www.bhi-bsn-2019.org/bhi-bsn-2019-industry-showcase/" class="button" target="_blank">learn more</a>
             </div>
              <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/mit-cnc-aaiHealthcare-logo-bw.png">  
-                </div>
-                <h1>AI IN HEALTHCARE AT JP MORGAN 2019
-</h1>
+               <div class="img_h">
+                <img  src="images/mit-cnc-aaiHealthcare-logo-bw.png">  
+              </div>
+                <h3>AI in Healthcare at JP Morgan 2019</h3>
                 <p>LEARN HOW PROTXX IS COMBINING WEARABLE DEVICES AND AI TO REDUCE NEUROVESTIBULAR AND ORTHOPEDIC INJURY RISKS AND IMPROVE RECOVERY OUTCOMES, JAN 9, 2019 IN SAN FRANCISCO</p>
-                <a class="newsbutton" href="https://www.mitcnc.org/events/ai-in-healthcare/" class="button">learn more</a>
+                <a class="site_btn" href="https://www.mitcnc.org/events/ai-in-healthcare/" class="button" target="_blank">learn more</a>
             </div>
- <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/wearable-technologies-australia-2018.png">  
-                </div>
-                <h1>WEARABLE TECHNOLOGIES AUSTRALIA 2018</h1>
+            <div class="newsitem">
+               <div class="img_h">
+                <img  src="images/wearable-technologies-australia-2018.png"> 
+                </div> 
+                <h3>Wearable Technologies Australia 2018</h3>
                 <p>JOIN PROTXX CEO JOHN RALSTON FOR HIS INVITED TALK AT THE WEARABLE TECHNOLOGIES AUSTRALIA CONFERENCE, OCT 3-4, 2018, IN MELBOURNE AUSTRALIA</p>
-                <a class="newsbutton" href="https://www.wearable-technologies.com/events/wt-wearable-technologies-conference-2018-australia/" class="button">learn more</a>
+                <a class="site_btn" href="https://www.wearable-technologies.com/events/wt-wearable-technologies-conference-2018-australia/" class="button" target="_blank">learn more</a>
             </div>
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/medfair.png">  
-                </div>
-                <h1>medical fair asia medicine + sports conference 2018</h1>
+               <div class="img_h">
+                <img src="images/medfair.png">  
+              </div>
+                <h3>Medical Fair Asia Medicine + Sports Conference 2018</h3>
                 <p>Protxx ceo dr. John ralston will be giving an invited talk on August 29th at the 2018 medical fair asia medicine + sports conference in Singapore</p>
-                <a class="newsbutton" href="https://www.medicalfair-asia.com/MFAM-Sports-Conference-Speakers.html" class="button">learn more</a>
+                <a class="site_btn" href="https://www.medicalfair-asia.com/MFAM-Sports-Conference-Speakers.html" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/medsensor.png">  
-                </div>
-                <h1>medical sensors design conference 2018</h1>
+               <div class="img_h">
+                <img src="images/medsensor.png">  
+              </div>
+                <h3>Medical Sensors Design Conference 2018</h3>
                 <p>Join protxx ceo dr. John ralston for his invited talk at the 2018 medical sensors design conference on June 25 and 26 in San Jose, CA</p>
-                <a class="newsbutton" href="https://medicalsensorsdesignconfere2018.sched.com/directory/speakers" class="button">learn more</a>
+                <a class="site_btn" href="https://medicalsensorsdesignconfere2018.sched.com/directory/speakers" class="button" target="_blank">learn more</a>
             </div>
 
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/sacCap.png">  
-                </div>
-                <h1>ProtXX wins capitalize grand prize </h1>
-                <p>APRIL 5, 2018 - PROTXX HAS BEEN SELECTED AS THE WINNER OF THE SACRAMENTO KNGS CAPITALIZE CONTEST. THANK YOU TO THE JUDGES AND COMPETITION.</p>
+               <div class="img_h">
+                <img  src="images/sacCap.png">  
+              </div>
+                <h3>PROTXX Wins NBA Sacramento Kings CAPITALIZE Grand Prize</h3>
+                <p>APRIL 5, 2018 - PROTXX HAS BEEN SELECTED AS THE WINNER OF THE NBA SACRAMENTO KNGS CAPITALIZE CONTEST. THANK YOU TO THE JUDGES AND COMPETITION.</p>
 
-                <a class="newsbutton" href="http://www.nba.com/kings/blog/protoxx-wins-capitalize-grand-prize" class="button">learn more</a>
+                <a class="site_btn" href="http://www.nba.com/kings/blog/protoxx-wins-capitalize-grand-prize" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/haneybiz.png">  
-                </div>
-                <h1> join PROTXX on the haneybiz Project show </h1>
+               <div class="img_h">
+                <img  src="images/haneybiz.png">  
+              </div>
+                <h3> Join PROTXX on the HaneyBiz Project show </h3>
                 <p>Protxx's talk with HaneyBiz host Mark Haney will appear on Facebook Live at 10:30 a.m., Thursday, April 12, and then air on Talk 650 KSTE and via the iHeart digital platform at 9 a.m., Saturday, April 28</p>
-                <a class="newsbutton" href="http://www.haneybiz.com/the-haneybiz-project/" class="button">learn more</a>
+                <a class="site_btn" href="http://www.haneybiz.com/the-haneybiz-project/" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/medicalwearables.png">  
-                </div>
-                <h1>2018 Medical Wearables Conference</h1>
+               <div class="img_h">
+                <img  src="images/medicalwearables.png"> 
+              </div> 
+                <h3>2018 Medical Wearables Conference</h3>
                 <p>Protxx CEO John Ralston to present invited talk on "Neurological and orthopedic applications of precision MEMS sensors" at the 2018 Medical Wearables Conference, Santa Clara, CA, May 16-17, 2018</p>
-                <a class="newsbutton" href="http://www.medwearablesconference.com/speakers.html" class="button">learn more</a>
+                <a class="site_btn" href="http://www.medwearablesconference.com/speakers.html" class="button" target="_blank">learn more</a>
             </div>
             
              <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/MITSLOAN.png">  
-                </div>
-                <h1>Startup Competition Winner - 2018 MIT Sloan Sports Analytics Conference</h1>
+               <div class="img_h">
+                <img  src="images/MITSLOAN.png"> 
+              </div> 
+                <h3>Startup Competition Winner - 2018 MIT Sloan Sports Analytics Conference</h3>
                 <p>Congratulation to the Protxx team on winning the Startup Competition at the 12th Annual MIT Sloan Sports Analytics Conference, February 23-24, 2018 – Boston Convention and Exhibit Center, Boston, MA</p>
-                <a class="newsbutton" href="http://www.sloansportsconference.com/mit_news/ssac-18-day-two-recap/" class="button">learn more</a>
+                <a class="site_btn" href="http://www.sloansportsconference.com/mit_news/ssac-18-day-two-recap/" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/IEEE2017.png">  
-                </div>
-                <h1>IEEE sensors 2017</h1>
+               <div class="img_h">
+                <img src="images/IEEE2017.png">  
+              </div>
+                <h3>IEEE Sensors 2017</h3>
                 <p>Come and see Protxx at the IEEE Sensors 2017 Conference, October 29 - November 1, 2017 – Scottish Events Campus, Glasgow, Scotland</p>
-                <a class="newsbutton" href="http://ieee-sensors2017.org/" class="button">learn more</a>
+                <a class="site_btn" href="http://ieee-sensors2017.org/" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/IEEEcouncil.png">  
-                </div>
-                <h1>IEEE Brain Sensors Workshop</h1>
+               <div class="img_h">
+                <img src="images/IEEEcouncil.png">  
+              </div>
+                <h3>IEEE Brain Sensors Workshop</h3>
                 <p>Join Protxx at the IEEE Brain SENSORS Workshop, November 2, 2017 – Glasgow, Scotland</p>
-                <a class="newsbutton" href="http://brain.ieee.org/wp-content/uploads/sites/52/2015/12/BRAIN-2017-Glasgow-WS-063017.pdf" class="button">learn more</a>
+                <a class="site_btn" href="http://brain.ieee.org/wp-content/uploads/sites/52/2015/12/BRAIN-2017-Glasgow-WS-063017.pdf" class="button" target="_blank">learn more</a>
             </div>
 
             <div class="newsitem">
-                <div class="newsimagecontainer">
-                    <img class="newsimage" src="asset/img/news/concussion.png">  
-                </div>
-                <h1>Concussion Health Summit Winner</h1>
+               <div class="img_h">
+                <img  src="images/concussion.png">  
+              </div>
+                <h3>Concussion Health Summit Winner</h3>
                 <p>Congratulations to Protxx for winning the Case Study Competition and presenting our research on "Cumulative Head Impact Trauma over a Season of Collegiate Women’s Soccer" at the 2017 Concussion Health Summit, July 28-29, 2017, Columbus, Ohio</p>
-                <a class="newsbutton" href="https://www.360neurohealth.com/whats-happening/the-concussion-health-summit-sponsor-showcase-concussions-and-sub-concussive-head-injuries-is-it-time-for-a-dosimeter" class="button">learn more</a>
+                <a class="site_btn" href="https://www.360neurohealth.com/whats-happening/the-concussion-health-summit-sponsor-showcase-concussions-and-sub-concussive-head-injuries-is-it-time-for-a-dosimeter" class="button" target="_blank">learn more</a>
             </div>
 
         </div>
+      </div>
     </div>
-<!-- Team -->
-            <a name="leadership"></a>
-
-            <div id="teamheader">
-                <h1>Leadership</h1>
+      <!-- part-4 end -->
+      <!-- part-5 begin -->
+      <div id="team">
+        <div class="title_bar">
+          <div class="container text-center">
+            <h2>Team</h2>
+          </div>
+          </div>
+          <div class="team_bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="tooltip"><img class="team_img img-responsive" src="images/john.png">
+                <h4>John Ralston</h4>
+                <h6>PhD – CEO & Founder</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>2016 “Pioneer in Healthcare Technology Innovations Award”</li>
+                  <li>CEO, Sales, Marketing, R&D. Six previous Silicon Valley start-ups (1 IPO, 5 M&A)</li>
+                  <li>BSc Physics & BSc EE, M.I.T. Ph.D. EE, Cornell University. M.Sc. Management of Technology, M.I.T. Sloan School.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-            <div id="solutionarrow">
-                <img id="solarrow" src ="asset/img/solution/solarrow.png" >
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/josh.jpg">
+                <h4>Josh Roper</h4>
+                <h6>VP Operations</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>Seasoned IoT and SW engineer, product manager, and business unit executive</li>
+                  <li>Previously Silver Spring Networks, SAP, Oracle, Portera, TXU</li>
+                  <li>BS EE,  Rice University. MBA Mgmt of Technology & Entrepreneurship, UC Berkeley, Haas School of Business.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-            <div id="teamcontainer">
-
-                <div id="teamIntro">
-                    <h1>The Protxx team is an accomplished group of neuro-sensing and neuro-imaging researchers,
-IoT device and data platform engineers, clinical neurology and sports medicine practitioners,
-and digital healthcare business professionals. Many of us are also parents of very active young
-athletes, as well as being avid sports fans, participants, or coaches ourselves.
-                    </h1>
-                </div>
-                
-                <div class="teamrow">
-                    
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/johndralston/">
-                            <img class="teamimg" src="asset/img/team/john.png">
-                            <h1>John Ralston</h1>
-                            <h2>founder & ceo</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/joshroper/">
-                            <img class="teamimg" src="asset/img/team/josh.jpg">
-                            <h1>JOSH ROPER</h1>
-                            <h2>VICE PRESIDENT OPERATIONS</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                       <a target="_blank" href="https://www.linkedin.com/in/scott-barnes-8645b51/">
-                            <img class="teamimg" src="asset/img/team/ScottBarnes.png">
-                            <h1>Scott Barnes</h1>
-                            <h2>Vice President of Sales and Marketing</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/adhir-ravipati-3b512034/">
-                            <img class="teamimg" src="asset/img/team/Adhir.png">
-                            <h1>Adhir Ravipati</h1>
-                            <h2>Vice President Sports Performance</h2>
-                        </a>
-                    </div>
-                  
-                </div>
-
-                <div class="teamrow">
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/andreas-hauenstein-ph-d-71077927/">
-                            <img class="teamimg" src="asset/img/team/andreas.png">
-                            <h1>Andreas Hauenstein</h1>
-                            <h2>Director of Platform Engineering</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/ashutosh-raina-m-d-59144452/">
-                            <img class="teamimg" src="asset/img/team/Ashutosh.png">
-                            <h1>Ashutosh Raina, M.D.</h1>
-                            <h2>Chief Medical Officer – Neurology</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/biljinder-chima-9ab817137/">
-                            <img class="teamimg" src="asset/img/team/Biljinder.png">
-                            <h1>Biljinder Chima, M.D.</h1>
-                            <h2>Chief Medical Officer – Sports Medicine</h2>
-                        </a>
-                    </div>
-
-                      <div class="teammember">
-                         <a target="_blank" href="https://www.linkedin.com/in/james-walker-a10b4560/">
-                            <img class="teamimg" src="asset/img/team/Jim.png">
-                            <h1>Jim Walker</h1>
-                            <h2>Chief Financial Officer</h2>
-                        </a>
-                    </div>
-                  
-                </div>
-
-               <!--  <div class="teamrow">
-                      <div class="teammember">
-                        <a href="" style="max-width: 48%">
-                            <img class="teamimg" src="asset/img/team/andreas.png">
-                            <h1>Andreas Hauenstein</h1>
-                            <h2>Director of Platform Engineering</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a href="" style="max-width: 48%">
-                            <img class="teamimg" src="asset/img/team/Brian.png">
-                            <h1>Brian Roberts</h1>
-                            <h2>Director Deployments and Education</h2>
-                        </a>
-                    </div>
-
-                </div> -->
-
-<!-- Response Rows -->
-
-                <div class="teamrow2">
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/johndralston/">
-                            <img class="teamimg" src="asset/img/team/john.png">
-                            <h1>John Ralston</h1>
-                            <h2>founder & ceo</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/joshroper/">
-                            <img class="teamimg" src="asset/img/team/josh.jpg">
-                            <h1>JOSH ROPER</h1>
-                            <h2>VICE PRESIDENT OPERATIONS</h2>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="teamrow2">
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/scott-barnes-8645b51/">
-                            <img class="teamimg" src="asset/img/team/ScottBarnes.png">
-                            <h1>Scott Barnes</h1>
-                            <h2>Vice President of Sales and Marketing</h2>
-                        </a>
-                    </div>
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/adhir-ravipati-3b512034/">
-                            <img class="teamimg" src="asset/img/team/Adhir.png">
-                            <h1>Adhir Ravipati</h1>
-                            <h2>Vice President Sports Performance</h2>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="teamrow2">
-
-                    <div class="teammember">
-                         <a target="_blank" href="https://www.linkedin.com/in/andreas-hauenstein-ph-d-71077927/">
-                                <img class="teamimg" src="asset/img/team/andreas.png">
-                                <h1>Andreas Hauenstein</h1>
-                                <h2>Director of Platform Engineering</h2>
-                            </a>
-                    </div>
-
-                     <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/ashutosh-raina-m-d-59144452/">
-                            <img class="teamimg" src="asset/img/team/Ashutosh.png">
-                            <h1>Ashutosh Raina, M.D.</h1>
-                            <h2>Chief Medical Officer – Neurology</h2>
-                        </a>
-                    </div>
-
-                </div>
-
-                  <div class="teamrow2">
-
-                    <div class="teammember">
-                        <a target="_blank" href="https://www.linkedin.com/in/biljinder-chima-9ab817137/">
-                            <img class="teamimg" src="asset/img/team/Biljinder.png">
-                            <h1>Biljinder Chima, M.D.</h1>
-                            <h2>Chief Medical Officer – Sports Medicine</h2>
-                        </a>
-                    </div>
-
-                     <div class="teammember">
-                       <a target="_blank" href="https://www.linkedin.com/in/james-walker-a10b4560/">
-                            <img class="teamimg" src="asset/img/team/Jim.png">
-                            <h1>Jim Walker</h1>
-                            <h2>Chief Financial Officer</h2>
-                        </a>
-                    </div>
-
-                </div>
-
-                 <div class="teamrow2">
-
-                      <!--   <div class="teammember">
-                            <a href="https://www.linkedin.com/in/andreas-hauenstein-ph-d-71077927/">
-                                <img class="teamimg" src="asset/img/team/andreas.png">
-                                <h1>Andreas Hauenstein</h1>
-                                <h2>Director of Platform Engineering</h2>
-                            </a>
-                        </div> -->
-
-               <!--  <div class="teammember">
-                        <a href="">
-                            <img class="teamimg" src="asset/img/team/Brian.png">
-                            <h1>Brian Roberts</h1>
-                            <h2>Director Deployments and Education</h2>
-                        </a>
-                    </div> -->
-
-                 </div>
-
-
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/ScottBarnes.png">
+                <h4>Scott Barnes</h4>
+                <h6>VP Sales & Marketing</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>25+ years of experience in biomechanics R&D, HW & SW product dev, sales and marketing, and executive management</li>
+                  <li>Previously GM Sales & Mktg at clinical biomechanics pioneer Bertec.</li>
+                  <li>BSc ME, MSc Computational Mechanics, Ohio State University.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-<!-- Advisors -->
-        <a name="advisors"></a>
-
-        <div id="advisorheader">
-                <h1>Advisors</h1>
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/Adhir.png">
+                <h4>Adhir Ravipati</h4>
+                <h6>VP User Performance</h6>
+                <span class="tooltiptext left_text">
+                  <ul class="list_style">
+                  <li>Seasoned technology product executive and venture investment analyst.</li>
+                  <li>NCAA football player, award winning athlete, and CA State Champion high school football coach.</li>
+                  <li>B.Sc. Biochemistry, Northeastern University.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-            <div id="problemarrow">
-                <img id="probarrow" src ="asset/img/problem/probarrow.png" >
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/andreas.png">
+                <h4>Andreas Hauenstein</h4>
+                <h6>PhD – Dir Platform Eng</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>23 years experience in advanced database, data analytics, mobile apps, and full stack SW platform development.</li>
+                  <li>R&D, prod dev, project mgmt. Financial services, wearables, industrial drones.</li>
+                  <li>PhD Comp Sci, Univ Hamburg. MS Comp Sci/Math, Univ of Technology, Munich.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-            <div id="advisorcontainer">
-                
-                <div class="advisorrow">
-                    
-                    <div class="advisormember">
-                        <a>
-                            <img class="advisorimg" src="asset/img/advisors/scott.png">
-                            <h1>Scott Grafton, MD</h1>
-                        </a>
-                    </div>
-
-                    <div class="advisormember">
-                        <a href="https://www.linkedin.com/in/eric-dresselhuys-a99b102/">
-                            <img class="advisorimg" src="asset/img/advisors/eric.png">
-                            <h1>Eric Dresselhuys</h1>
-                        </a>
-                    </div>
-
-                     <div class="advisormember">
-                        <a href="https://www.linkedin.com/in/matt-morrison-b266813/">
-                            <img class="advisorimg" src="asset/img/advisors/matt.png">
-                            <h1>Prof. Matthew Morrison, PHD</h1>
-                        </a>
-                    </div>
-                  
-                </div>
-
-                <div class="teamrow2">
-
-                    <div class="advisormember">
-                        <a>
-                            <img class="advisorimg" src="asset/img/advisors/scott.png">
-                            <h1>Scott Grafton, MD</h1>
-                        </a>
-                    </div>
-
-                    <div class="advisormember">
-                        <a href="https://www.linkedin.com/in/eric-dresselhuys-a99b102/">
-                            <img class="advisorimg" src="asset/img/advisors/eric.png">
-                            <h1>Eric Dresselhuys</h1>
-                        </a>
-                    </div>
-
-                </div>
-
-
-                <div class="teamrow2">
-
-                     <div class="advisormember">
-                        <a href="https://www.linkedin.com/in/matt-morrison-b266813/">
-                            <img id="singleadvisorimg" class="advisorimg" src="asset/img/advisors/matt.png">
-                            <h1>Prof. Matthew Morrison, PHD</h1>
-                        </a>
-                    </div>
-
-                </div>
-
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/Jim.png">
+                <h4>Jim Walker</h4>
+                <h6>Chief Financial Officer</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>25+ years experience as Silicon Valley CFO, COO, and CEO, developing and commercializing wide range of technologies and products (3 IPOs).</li>
+                  <li>MBA, Santa Clara University. BA in Mathematics and Physics, San Jose State University.</li>
+                  </ul>
+                </span>
+              </div>
             </div>
-
-<!-- hiring -->
-    <div id="hiring">
-        <div id="hiringImage">
-            <img id="hiringIMG" src="asset/img/hiring/hiring.png">
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/Ashutosh.png">
+                <h4>Ashutosh Raina</h4>
+                <h6>MD – Ch Med Officer, Neurology</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>Medical Director, Ctr of Excellence Ped Neurology, Dignity Health, Sacramento.</li>
+                  <li>Clinical Neurophys Residency, Children’s Hospital Mich. Ped Neuro Residency, Wayne State. Pediatrics Residency, Brookdale University Hospital, Brooklyn, NY. B Med, B Surgery, Pune University.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/Biljinder.png">
+                <h4>Biljinder Chima</h4>
+                <h6>MD – Ch Med Officer, Sports Med</h6>
+                <span class="tooltiptext left_text">
+                  <ul class="list_style">
+                  <li>Sports Medicine Physician, Sutter Indep Physicians Medical Director</li>
+                  <li>Co-Founder, Concussion Medical Clinic, Sacramento, CA.</li>
+                  <li>Sports Medicine Fellow - Arizona State Univ., Residency - San Joaquin General Hospital, BSc Genetics, UC Davis.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/scott.png">
+                <h4>Scott Grafton</h4>
+                <h6>MD – Advisory Board</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>Director, UCSB Brain Imaging Center, Professor, Psychological and Brain Sciences, UC Santa Barbara </li>
+                  <li>Recipient of GE/NFL “Head Health Challenge Award” to develop improved MRI imaging techniques  for diagnosis , treatment of neurological injuries.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/manny.png">
+                <h4>Manny Romero</h4>
+                <h6>PhD – Advisory Board</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>Professor of Sports Science, Innovation, William Jessup Univ, Sacramento, CA</li>
+                  <li>Head AT, Dir of Research & Innovation, NBA Sacramento Kings, 2011-2018</li>
+                  <li>PhD Athletic Training, Rocky Mountain University of Health Professions , MSc Exercise Science. BSc Biology.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/eric.png">
+                <h4>Eric Dresselhuys</h4>
+                <h6>Advisory Board</h6>
+                <span class="tooltiptext right_text">
+                  <ul class="list_style">
+                  <li>Founder, Silver Spring Networks (NYSE: SSNI). Extensive experience in industrial IoT, connected cloud services, complex go-to-market execution.</li>
+                  <li>Former high school, NCAA football player, passionate about creating safe, sustainable environments for athletics.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+           
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+               <div class="tooltip"><img class="team_img img-responsive" src="images/matt.png">
+                <h4>Prof. Matthew Morrison</h4>
+                <h6>PhD – Advisory Board</h6>
+                <span class="tooltiptext left_text">
+                  <ul class="list_style">
+                  <li>Dept. of Electrical Engineering, University of Notre Dame</li>
+                  <li>Expert on low-power sensors, secure wireless sensor networks</li>
+                  <li>Creator of award-winning “Heads in the Game” concussion safety research / STEM program.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>   
+        </div> 
+      </div>
+      <!-- part-5 end -->
+      <!-- part-6 begin -->
+      <div class="contact_sec" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="img-responsive center-block" src="images/hiring.png">
+            </div>
+            <div class="col-sm-9">
+              <div class="left_space">
+              <p>We are always looking for top talent to help realize our vision of creating wearable devices that make sports safer and improve athlete performance. Have a background in IoT devices and data analytics, sports performance or medtech product development, or digital healthcare sales, marketing, or business development? Send us your resume and CV.</p>
+              <a href="mailto:info@protxx.com">GET IN TOUCH</a>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div id="hiringText">
-            <h1>We are always looking for top talent to help realize our vision of creating wearable
-devices that make sports safer and improve athlete performance.
-Have a background in IoT devices and data analytics, sports performance or medtech
-product development, or digital healthcare sales, marketing, or business development?
-Send us your resume and CV.</h1>
-            
-            <div id="buttonContainer">
-                <div id="hiringButton">
-                    <a href="mailto:info@protxx.com">get in touch</a>
-                </div>
-
-                
-            </div>
+      </div>
+      <!-- part-6 end -->
+      <!-- part-7 begin -->
+      <div class="map_section">
+        <div class="map_title">
+        <div class="container">
+          <h3>SOUTH BAY LOCATION</h3>
         </div>
-    </div>
-<!-- Map -->
-
-            <div id="mapcontainer">
-                <h1>south bay location</h1>
-                <a href="https://www.google.com/maps/place/659+Oak+Grove+Ave+%23202,+Menlo+Park,+CA+94025/data=!4m2!3m1!1s0x808fa4af96bbb7f3:0xb699b22abf34b6b9?sa=X&ved=0ahUKEwityMKmn9TbAhXqjlQKHTIsAKEQ8gEIJjAA">
-                    <img id="mapimg" src="asset/img/map/map.png">
-                </a>
+        <a target="_blank" href="https://www.google.com/maps/place/659+Oak+Grove+Ave+%23202,+Menlo+Park,+CA+94025/data=!4m2!3m1!1s0x808fa4af96bbb7f3:0xb699b22abf34b6b9?sa=X&ved=0ahUKEwityMKmn9TbAhXqjlQKHTIsAKEQ8gEIJjAA"><img src="images/map.png"></a>
+        </div>
+         <div class="map_title">
+        <div class="container">
+          <h3>SACRAMENTO AREA LOCATION</h3>
+        </div>
+        <a target="_blank" href="https://www.google.com/maps/place/5800+Stanford+Ranch+Rd+%23800,+Rocklin,+CA+95765/@38.798903,-121.2597389,12.19z/data=!4m5!3m4!1s0x809b21fdc1c7bedf:0xe418a004aab8b3b!8m2!3d38.7989167!4d-121.2643002"><img src="images/sacmap.png"></a>
+        </div>
+      </div>
+      <!-- part-7 end -->
+      <!-- footer begin -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <img src="images/protxx_logo.svg">
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <p class="pull-right">&copy; COPYRIGHT 2017, 2018, 2019 PROTXX, INC. ALL RIGHTS RESERVED  <a class="site_btn" href="mailto:info@protxx.com">CONTACT US</a></p>
 
-             <div id="mapcontainer">
-                <h1>sacramento area location</h1>
-                <a href="https://www.google.com/maps/place/5800+Stanford+Ranch+Rd+%23800,+Rocklin,+CA+95765/@38.798903,-121.2597389,12.19z/data=!4m5!3m4!1s0x809b21fdc1c7bedf:0xe418a004aab8b3b!8m2!3d38.7989167!4d-121.2643002">
-                    <img id="mapimg" src="asset/img/map/sacmap.png">
-                </a>
             </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="js/menu.js"></script> 
+      <!-- menu begin --> 
+      <script>
+       jQuery(document).ready(function($) {
+         jQuery('nav ul li:has(ul)').addClass('drop_down_menu');
+         jQuerymenuLeft = jQuery('.pushmenu-left');
+         jQuerynav_list = jQuery('#nav_list');
 
-<!-- Footer -->
- <a name="contact"></a>
-            <div id="footer">
-                <img id = "footerlogo" src="asset/img/landing/protxx_logo.svg">
-                <p class = "copyright">&copy; Copyright 2017, 2018, 2019 Protxx, Inc. All Rights Reserved </p>
-                <div id="sociallinks">
-                    <img id = "linkedin" src="asset/img/icons/linkedin.png">
-                </div>
-                <div id="contact">
-                    <a href="mailto:info@protxx.com">contact us</a>
-                </div>
+         jQuerynav_list.click(function() {
+           jQuery(this).toggleClass('active');
+           jQuery('.pushmenu-push').toggleClass('pushmenu-push-toright');
+           jQuerymenuLeft.toggleClass('pushmenu-open');
+         });
 
-<!-- Scripts -->
+         jQuery("li.drop_down_menu").click(function(e){
+           if (this == e.target) {
+             jQuery(this).toggleClass('open');
+             jQuery(this).children('ul').slideToggle('fast');
+           }
 
-        <script 
-             src="asset/scripts/headerScroll.js">
-        </script>
+         });
+       });
+      </script> 
+      <!-- menu end -->
+      <!-- slider js begin -->
+       <script type="text/javascript" src="js/slider.js"></script>
+       <script type="text/javascript">
+           jQuery(document).ready(function() {
+           jQuery('.fade').slick({
+           dots: false,
+           infinite: true,
+           adaptiveHeight: true,
+           arrows:true,
+           speed: 500,
+           dotsClass: 'slick-dots container',
+           fade: true,
+           autoplay: true,
+           cssEase: 'linear'
+         });
+         });
 
-        <script 
-             src="asset/scripts/hamburger.js">
-        </script>
-        
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-
-        <script type="text/javascript">
+       </script>
+      <!-- slider js begin -->
+      <script type="text/javascript">
                      
             $('.slickNews').slick({
               dots: true,
+              arrows:true,
               infinite: false,
               speed: 300,
               slidesToShow: 4,
@@ -880,6 +609,5 @@ Send us your resume and CV.</h1>
             });
         
         </script>
-                        
-        </body>
-</html>
+     </body>
+     </html>
