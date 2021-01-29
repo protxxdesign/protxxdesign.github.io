@@ -39,7 +39,7 @@
     padding-right: 13px;
     padding-left: 13px;
     text-decoration: none;
-    padding: 20px 32px;
+    padding: 20px 23px;
 }
 .pushmenu ul li ul {
     padding: 0;
@@ -286,7 +286,7 @@
     .drop_down_menu_sub:after {
         cursor: pointer;
         content: "\f067";
-        font-family: FontAwesome;
+        font-family: "Font Awesome 5 Pro";
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
@@ -339,7 +339,7 @@
         width: 42px;
         text-indent: -99999em;
         content: "\f0c9";
-        font-family: FontAwesome;
+        font-family: "Font Awesome 5 Pro";
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
@@ -403,7 +403,7 @@
     .buttonset .active:before {
 
         content: "\f00d" !important;
-        font-family: FontAwesome;
+        font-family: "Font Awesome 5 Pro";
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
